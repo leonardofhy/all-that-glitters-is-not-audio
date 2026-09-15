@@ -1,0 +1,62 @@
+{
+  "overall_accuracy": 0.5296167247386759,
+  "overall_correct": 2432,
+  "overall_total": 4592,
+  "no_prediction_count": 1,
+  "evaluation_method": "llm-mcq-judge-hybrid",
+  "extraction_stats": {
+    "resumed": true
+  },
+  "category_accuracy": {
+    "multi": {
+      "accuracy": 0.35348837209302325,
+      "correct": 152,
+      "total": 430
+    },
+    "music": {
+      "accuracy": 0.6325811001410437,
+      "correct": 897,
+      "total": 1418
+    },
+    "music_speech": {
+      "accuracy": 0.5434782608695652,
+      "correct": 25,
+      "total": 46
+    },
+    "sound": {
+      "accuracy": 0.5864374403056352,
+      "correct": 614,
+      "total": 1047
+    },
+    "sound_music": {
+      "accuracy": 0.5,
+      "correct": 25,
+      "total": 50
+    },
+    "sound_music_speech": {
+      "accuracy": 0.7142857142857143,
+      "correct": 5,
+      "total": 7
+    },
+    "sound_speech": {
+      "accuracy": 0.5113636363636364,
+      "correct": 45,
+      "total": 88
+    },
+    "spatial_audio": {
+      "accuracy": 0.1753846153846154,
+      "correct": 57,
+      "total": 325
+    },
+    "speech": {
+      "accuracy": 0.5409652076318743,
+      "correct": 482,
+      "total": 891
+    },
+    "voice_chat": {
+      "accuracy": 0.4482758620689655,
+      "correct": 130,
+      "total": 290
+    }
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Per-item predictions restored from the release archive (see docs/reproduction.md)
+release_archive/
+results/*/*/*.jsonl
+results/*/*/full.json
+results/*/*/none.json
+results/*/*/n[0-9]_chunk[0-9].json
+
+# Figures written by scripts/paper/
+docs/paper/figures/

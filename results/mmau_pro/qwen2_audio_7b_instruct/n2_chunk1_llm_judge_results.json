@@ -1,0 +1,69 @@
+{
+  "overall_accuracy": 0.42835365853658536,
+  "overall_correct": 1967,
+  "overall_total": 4592,
+  "no_prediction_count": 60,
+  "evaluation_method": "llm-mcq-judge-hybrid",
+  "extraction_stats": {
+    "total": 4592,
+    "skipped_non_mcq": 0,
+    "skipped_empty": 0,
+    "regex_resolved": 3097,
+    "api_calls": 1495,
+    "api_errors": 0,
+    "none_answers": 60,
+    "elapsed_seconds": 23.1
+  },
+  "category_accuracy": {
+    "multi": {
+      "accuracy": 0.17209302325581396,
+      "correct": 74,
+      "total": 430
+    },
+    "music": {
+      "accuracy": 0.49717912552891397,
+      "correct": 705,
+      "total": 1418
+    },
+    "music_speech": {
+      "accuracy": 0.4782608695652174,
+      "correct": 22,
+      "total": 46
+    },
+    "sound": {
+      "accuracy": 0.5205348615090736,
+      "correct": 545,
+      "total": 1047
+    },
+    "sound_music": {
+      "accuracy": 0.28,
+      "correct": 14,
+      "total": 50
+    },
+    "sound_music_speech": {
+      "accuracy": 0.42857142857142855,
+      "correct": 3,
+      "total": 7
+    },
+    "sound_speech": {
+      "accuracy": 0.4318181818181818,
+      "correct": 38,
+      "total": 88
+    },
+    "spatial_audio": {
+      "accuracy": 0.20307692307692307,
+      "correct": 66,
+      "total": 325
+    },
+    "speech": {
+      "accuracy": 0.4152637485970819,
+      "correct": 370,
+      "total": 891
+    },
+    "voice_chat": {
+      "accuracy": 0.4482758620689655,
+      "correct": 130,
+      "total": 290
+    }
+  }
+}

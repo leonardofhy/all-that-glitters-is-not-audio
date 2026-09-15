@@ -1,0 +1,38 @@
+[
+  {
+    "benchmark": "MMAU",
+    "n_models": 8,
+    "TS": 39.5,
+    "FS": 27.9,
+    "XS": 1.2,
+    "AH": 5.1,
+    "UN": 26.3,
+    "XS_AN": 4.2,
+    "XS_AN_LOW": 2.2,
+    "XS_AN_HIGH": 5.7
+  },
+  {
+    "benchmark": "MMAR",
+    "n_models": 8,
+    "TS": 26.2,
+    "FS": 29.5,
+    "XS": 0.9,
+    "AH": 8.1,
+    "UN": 35.4,
+    "XS_AN": 3.0,
+    "XS_AN_LOW": 1.5,
+    "XS_AN_HIGH": 5.4
+  },
+  {
+    "benchmark": "MMAU-Pro",
+    "n_models": 8,
+    "TS": 27.8,
+    "FS": 21.3,
+    "XS": 0.9,
+    "AH": 8.3,
+    "UN": 41.7,
+    "XS_AN": 4.0,
+    "XS_AN_LOW": 2.1,
+    "XS_AN_HIGH": 8.0
+  }
+]

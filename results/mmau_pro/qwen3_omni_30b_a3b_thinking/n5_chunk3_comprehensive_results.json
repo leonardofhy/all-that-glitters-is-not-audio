@@ -1,0 +1,146 @@
+{
+  "evaluation_summary": {
+    "total_samples": 5305,
+    "evaluated_samples": 5304.0,
+    "parquet_file": "results/mmau_pro/qwen3_omni_30b_a3b_thinking/n5_chunk3.jsonl",
+    "model_output_column": "model_output",
+    "overall_weighted_performance": 0.5045094268476622
+  },
+  "category_results": {
+    "open": {
+      "type": "openended",
+      "count": 625,
+      "performance_score": 0.7214688,
+      "metrics": {
+        "avg_correctness": 3.0624,
+        "std_correctness": 1.2589305937977677,
+        "avg_relevance": 3.84,
+        "std_relevance": 1.1606894502837526,
+        "avg_completeness": 3.36,
+        "std_completeness": 1.0822199406774948,
+        "avg_clarity": 4.2784,
+        "std_clarity": 0.7975546627034413,
+        "avg_overall": 3.6073440000000003,
+        "std_overall": 1.000419744739177,
+        "good_response_rate": 0.4512,
+        "poor_response_rate": 0.0976
+      }
+    },
+    "instruction following": {
+      "type": "aif",
+      "count": 87,
+      "performance_score": 0.1724137931034483,
+      "success_rate": 0.1724137931034483
+    },
+    "sound": {
+      "type": "closed",
+      "count": 1047,
+      "performance_score": 0.4594078319006686,
+      "metrics": {
+        "accuracy": 0.4594078319006686,
+        "precision": 0.6357175265595121,
+        "recall": 0.4594078319006686,
+        "f1_score": 0.48755863006640854
+      }
+    },
+    "multi": {
+      "type": "closed",
+      "count": 430,
+      "performance_score": 0.35348837209302325,
+      "metrics": {
+        "accuracy": 0.35348837209302325,
+        "precision": 0.42200801843534697,
+        "recall": 0.35348837209302325,
+        "f1_score": 0.3115688755977092
+      }
+    },
+    "sound_music": {
+      "type": "closed",
+      "count": 50,
+      "performance_score": 0.26,
+      "metrics": {
+        "accuracy": 0.26,
+        "precision": 0.35,
+        "recall": 0.26,
+        "f1_score": 0.2786666666666667
+      }
+    },
+    "music": {
+      "type": "closed",
+      "count": 1418,
+      "performance_score": 0.6191819464033851,
+      "metrics": {
+        "accuracy": 0.6191819464033851,
+        "precision": 0.6396310044758564,
+        "recall": 0.6191819464033851,
+        "f1_score": 0.6190460886703618
+      }
+    },
+    "spatial_audio": {
+      "type": "closed",
+      "count": 325,
+      "performance_score": 0.2953846153846154,
+      "metrics": {
+        "accuracy": 0.2953846153846154,
+        "precision": 0.6101269841269841,
+        "recall": 0.2953846153846154,
+        "f1_score": 0.33361381154919206
+      }
+    },
+    "music_speech": {
+      "type": "closed",
+      "count": 46,
+      "performance_score": 0.32608695652173914,
+      "metrics": {
+        "accuracy": 0.32608695652173914,
+        "precision": 0.3695652173913043,
+        "recall": 0.32608695652173914,
+        "f1_score": 0.33091787439613524
+      }
+    },
+    "sound_music_speech": {
+      "type": "closed",
+      "count": 7,
+      "performance_score": 0.42857142857142855,
+      "metrics": {
+        "accuracy": 0.42857142857142855,
+        "precision": 0.42857142857142855,
+        "recall": 0.42857142857142855,
+        "f1_score": 0.42857142857142855
+      }
+    },
+    "sound_speech": {
+      "type": "closed",
+      "count": 88,
+      "performance_score": 0.4090909090909091,
+      "metrics": {
+        "accuracy": 0.4090909090909091,
+        "precision": 0.375,
+        "recall": 0.4090909090909091,
+        "f1_score": 0.3856060606060607
+      }
+    },
+    "speech": {
+      "type": "closed",
+      "count": 891,
+      "performance_score": 0.4332210998877666,
+      "metrics": {
+        "accuracy": 0.4332210998877666,
+        "precision": 0.4347423558966624,
+        "recall": 0.4332210998877666,
+        "f1_score": 0.41685585162193056
+      }
+    },
+    "voice_chat": {
+      "type": "closed",
+      "count": 290,
+      "performance_score": 0.5172413793103449,
+      "metrics": {
+        "accuracy": 0.5172413793103449,
+        "precision": 0.5310344827586206,
+        "recall": 0.5172413793103449,
+        "f1_score": 0.5201149425287356
+      }
+    }
+  }
+}

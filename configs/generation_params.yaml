@@ -1,0 +1,26 @@
+# Centralized Generation Parameters for Audio LLM Benchmarks
+# Standards defined by BGS (2026-02-05)
+
+# Global Defaults
+default:
+  temperature: 0.0
+  max_tokens: 512
+  top_p: 1.0
+  repetition_penalty: 1.0
+
+# Benchmark-Specific Overrides
+benchmarks:
+  mmau:
+    max_tokens: 128  # MCQ answers are usually short letter+text
+  mmau_pro:
+    max_tokens: 512  # Complex reasoning tasks
+  mmar:
+    max_tokens: 512  # Multimodal reasoning
+
+# Model-Type Specific Overrides (Highest Priority)
+# Only override when a model genuinely needs different params (e.g., thinking models).
+# All standard models should inherit benchmark-level defaults for consistency.
+model_types:
+  thinking:
+    max_tokens: 4096
+    temperature: 0.6  # Encourages diverse reasoning paths

@@ -1,0 +1,44 @@
+{
+  "overall_accuracy": 0.656,
+  "overall_correct": 656,
+  "overall_total": 1000,
+  "no_prediction_count": 0,
+  "evaluation_method": "llm-mcq-judge-hybrid",
+  "extraction_stats": {
+    "total": 1000,
+    "skipped_non_mcq": 0,
+    "skipped_empty": 0,
+    "regex_resolved": 0,
+    "api_calls": 1000,
+    "api_errors": 0,
+    "none_answers": 0,
+    "elapsed_seconds": 17.1
+  },
+  "category_accuracy": {
+    "music": {
+      "accuracy": 0.6526946107784432,
+      "correct": 218,
+      "total": 334
+    },
+    "sound": {
+      "accuracy": 0.7297297297297297,
+      "correct": 243,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.5855855855855856,
+      "correct": 195,
+      "total": 333
+    }
+  },
+  "official_comparison": {
+    "official_accuracy": 0.651,
+    "llm_accuracy": 0.656,
+    "delta_mcq": 0.0050000000000000044,
+    "agreement_rate": 0.995,
+    "both_correct": 651,
+    "llm_only_correct": 5,
+    "official_only_correct": 0,
+    "both_wrong": 344
+  }
+}

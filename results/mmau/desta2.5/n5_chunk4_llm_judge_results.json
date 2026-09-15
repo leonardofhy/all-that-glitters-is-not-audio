@@ -1,0 +1,37 @@
+{
+  "overall_accuracy": 0.516,
+  "overall_correct": 516,
+  "overall_total": 1000,
+  "no_prediction_count": 133,
+  "evaluation_method": "llm-mcq-judge-hybrid",
+  "extraction_stats": {
+    "resumed": true
+  },
+  "category_accuracy": {
+    "music": {
+      "accuracy": 0.562874251497006,
+      "correct": 188,
+      "total": 334
+    },
+    "sound": {
+      "accuracy": 0.5375375375375375,
+      "correct": 179,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.44744744744744747,
+      "correct": 149,
+      "total": 333
+    }
+  },
+  "official_comparison": {
+    "official_accuracy": 0.37254901960784315,
+    "llm_accuracy": 0.516,
+    "delta_mcq": 0.14345098039215687,
+    "agreement_rate": 0.7773933102652826,
+    "both_correct": 323,
+    "llm_only_correct": 193,
+    "official_only_correct": 0,
+    "both_wrong": 351
+  }
+}

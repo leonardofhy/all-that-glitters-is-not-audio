@@ -1,0 +1,177 @@
+{
+  "overall_accuracy": 0.628,
+  "overall_correct": 628,
+  "overall_total": 1000,
+  "task_accuracy": {
+    "sound": {
+      "accuracy": 0.6996996996996997,
+      "correct": 233,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.5195195195195195,
+      "correct": 173,
+      "total": 333
+    },
+    "music": {
+      "accuracy": 0.6646706586826348,
+      "correct": 222,
+      "total": 334
+    }
+  },
+  "difficulty_accuracy": {
+    "medium": {
+      "accuracy": 0.6814814814814815,
+      "correct": 368,
+      "total": 540
+    },
+    "hard": {
+      "accuracy": 0.5635593220338984,
+      "correct": 133,
+      "total": 236
+    },
+    "easy": {
+      "accuracy": 0.5669642857142857,
+      "correct": 127,
+      "total": 224
+    }
+  },
+  "sub_category_accuracy": {
+    "Acoustic Source Inference": {
+      "accuracy": 0.8125,
+      "correct": 39,
+      "total": 48
+    },
+    "Temporal Event Reasoning": {
+      "accuracy": 0.5416666666666666,
+      "correct": 26,
+      "total": 48
+    },
+    "Dissonant Emotion Interpretation": {
+      "accuracy": 0.7714285714285715,
+      "correct": 27,
+      "total": 35
+    },
+    "Event-Based Knowledge Retrieval": {
+      "accuracy": 0.7575757575757576,
+      "correct": 25,
+      "total": 33
+    },
+    "Counting": {
+      "accuracy": 0.3448275862068966,
+      "correct": 10,
+      "total": 29
+    },
+    "Phonemic Stress Pattern Analysis": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 53
+    },
+    "Emotion State summarisation": {
+      "accuracy": 0.5,
+      "correct": 22,
+      "total": 44
+    },
+    "Conversational Fact Retrieval": {
+      "accuracy": 0.5,
+      "correct": 11,
+      "total": 22
+    },
+    "Key highlight Extraction": {
+      "accuracy": 0.8571428571428571,
+      "correct": 18,
+      "total": 21
+    },
+    "Multi Speaker Role Mapping": {
+      "accuracy": 0.7777777777777778,
+      "correct": 21,
+      "total": 27
+    },
+    "Phonological Sequence Decoding": {
+      "accuracy": 0.6122448979591837,
+      "correct": 30,
+      "total": 49
+    },
+    "Emotion Flip Detection": {
+      "accuracy": 0.45,
+      "correct": 9,
+      "total": 20
+    },
+    "Instrumentation": {
+      "accuracy": 0.6857142857142857,
+      "correct": 24,
+      "total": 35
+    },
+    "Temporal Reasoning": {
+      "accuracy": 0.25,
+      "correct": 14,
+      "total": 56
+    },
+    "Lyrical Reasoning": {
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10
+    },
+    "Socio-cultural Interpretation": {
+      "accuracy": 0.9,
+      "correct": 18,
+      "total": 20
+    },
+    "Rhythm and Tempo Understanding": {
+      "accuracy": 0.6304347826086957,
+      "correct": 29,
+      "total": 46
+    },
+    "Musical Texture Interpretation": {
+      "accuracy": 0.7941176470588235,
+      "correct": 27,
+      "total": 34
+    },
+    "Melodic Structure Interpretation": {
+      "accuracy": 0.7878787878787878,
+      "correct": 26,
+      "total": 33
+    },
+    "Harmony and Chord Progressions": {
+      "accuracy": 0.7272727272727273,
+      "correct": 24,
+      "total": 33
+    },
+    "Musical Genre Reasoning": {
+      "accuracy": 0.7941176470588235,
+      "correct": 27,
+      "total": 34
+    },
+    "Event-Based Sound Reasoning": {
+      "accuracy": 0.8333333333333334,
+      "correct": 40,
+      "total": 48
+    },
+    "Emotional Tone Interpretation": {
+      "accuracy": 0.8484848484848485,
+      "correct": 28,
+      "total": 33
+    },
+    "Eco-Acoustic Knowledge": {
+      "accuracy": 0.8085106382978723,
+      "correct": 38,
+      "total": 47
+    },
+    "Ambient Sound Interpretation": {
+      "accuracy": 0.6875,
+      "correct": 33,
+      "total": 48
+    },
+    "Acoustic Scene Reasoning": {
+      "accuracy": 0.3958333333333333,
+      "correct": 19,
+      "total": 48
+    },
+    "Sound-Based Event Recognition": {
+      "accuracy": 0.8260869565217391,
+      "correct": 38,
+      "total": 46
+    }
+  },
+  "no_prediction_count": 36
+}

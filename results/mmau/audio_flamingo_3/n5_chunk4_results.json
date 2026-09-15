@@ -1,0 +1,177 @@
+{
+  "overall_accuracy": 0.614,
+  "overall_correct": 614,
+  "overall_total": 1000,
+  "task_accuracy": {
+    "sound": {
+      "accuracy": 0.6756756756756757,
+      "correct": 225,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.4894894894894895,
+      "correct": 163,
+      "total": 333
+    },
+    "music": {
+      "accuracy": 0.6766467065868264,
+      "correct": 226,
+      "total": 334
+    }
+  },
+  "difficulty_accuracy": {
+    "medium": {
+      "accuracy": 0.6777777777777778,
+      "correct": 366,
+      "total": 540
+    },
+    "hard": {
+      "accuracy": 0.5338983050847458,
+      "correct": 126,
+      "total": 236
+    },
+    "easy": {
+      "accuracy": 0.5446428571428571,
+      "correct": 122,
+      "total": 224
+    }
+  },
+  "sub_category_accuracy": {
+    "Acoustic Source Inference": {
+      "accuracy": 0.875,
+      "correct": 42,
+      "total": 48
+    },
+    "Temporal Event Reasoning": {
+      "accuracy": 0.3541666666666667,
+      "correct": 17,
+      "total": 48
+    },
+    "Dissonant Emotion Interpretation": {
+      "accuracy": 0.7142857142857143,
+      "correct": 25,
+      "total": 35
+    },
+    "Event-Based Knowledge Retrieval": {
+      "accuracy": 0.3939393939393939,
+      "correct": 13,
+      "total": 33
+    },
+    "Counting": {
+      "accuracy": 0.5517241379310345,
+      "correct": 16,
+      "total": 29
+    },
+    "Phonemic Stress Pattern Analysis": {
+      "accuracy": 0.20754716981132076,
+      "correct": 11,
+      "total": 53
+    },
+    "Emotion State summarisation": {
+      "accuracy": 0.5681818181818182,
+      "correct": 25,
+      "total": 44
+    },
+    "Conversational Fact Retrieval": {
+      "accuracy": 0.6363636363636364,
+      "correct": 14,
+      "total": 22
+    },
+    "Key highlight Extraction": {
+      "accuracy": 0.7142857142857143,
+      "correct": 15,
+      "total": 21
+    },
+    "Multi Speaker Role Mapping": {
+      "accuracy": 0.5555555555555556,
+      "correct": 15,
+      "total": 27
+    },
+    "Phonological Sequence Decoding": {
+      "accuracy": 0.5102040816326531,
+      "correct": 25,
+      "total": 49
+    },
+    "Emotion Flip Detection": {
+      "accuracy": 0.2,
+      "correct": 4,
+      "total": 20
+    },
+    "Instrumentation": {
+      "accuracy": 0.8285714285714286,
+      "correct": 29,
+      "total": 35
+    },
+    "Temporal Reasoning": {
+      "accuracy": 0.5,
+      "correct": 28,
+      "total": 56
+    },
+    "Lyrical Reasoning": {
+      "accuracy": 0.7,
+      "correct": 7,
+      "total": 10
+    },
+    "Socio-cultural Interpretation": {
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20
+    },
+    "Rhythm and Tempo Understanding": {
+      "accuracy": 0.5217391304347826,
+      "correct": 24,
+      "total": 46
+    },
+    "Musical Texture Interpretation": {
+      "accuracy": 0.8529411764705882,
+      "correct": 29,
+      "total": 34
+    },
+    "Melodic Structure Interpretation": {
+      "accuracy": 0.696969696969697,
+      "correct": 23,
+      "total": 33
+    },
+    "Harmony and Chord Progressions": {
+      "accuracy": 0.5151515151515151,
+      "correct": 17,
+      "total": 33
+    },
+    "Musical Genre Reasoning": {
+      "accuracy": 0.8235294117647058,
+      "correct": 28,
+      "total": 34
+    },
+    "Event-Based Sound Reasoning": {
+      "accuracy": 0.8125,
+      "correct": 39,
+      "total": 48
+    },
+    "Emotional Tone Interpretation": {
+      "accuracy": 0.8787878787878788,
+      "correct": 29,
+      "total": 33
+    },
+    "Eco-Acoustic Knowledge": {
+      "accuracy": 0.723404255319149,
+      "correct": 34,
+      "total": 47
+    },
+    "Ambient Sound Interpretation": {
+      "accuracy": 0.6875,
+      "correct": 33,
+      "total": 48
+    },
+    "Acoustic Scene Reasoning": {
+      "accuracy": 0.625,
+      "correct": 30,
+      "total": 48
+    },
+    "Sound-Based Event Recognition": {
+      "accuracy": 0.6521739130434783,
+      "correct": 30,
+      "total": 46
+    }
+  },
+  "no_prediction_count": 0
+}

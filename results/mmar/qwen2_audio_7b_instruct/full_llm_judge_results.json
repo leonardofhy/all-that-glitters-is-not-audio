@@ -1,0 +1,57 @@
+{
+  "overall_accuracy": 0.463,
+  "overall_correct": 463,
+  "overall_total": 1000,
+  "no_prediction_count": 72,
+  "evaluation_method": "llm-mcq-judge-hybrid",
+  "extraction_stats": {
+    "resumed": true
+  },
+  "category_accuracy": {
+    "mix-music-speech": {
+      "accuracy": 0.45121951219512196,
+      "correct": 37,
+      "total": 82
+    },
+    "mix-sound-music": {
+      "accuracy": 0.18181818181818182,
+      "correct": 2,
+      "total": 11
+    },
+    "mix-sound-music-speech": {
+      "accuracy": 0.5,
+      "correct": 12,
+      "total": 24
+    },
+    "mix-sound-speech": {
+      "accuracy": 0.5321100917431193,
+      "correct": 116,
+      "total": 218
+    },
+    "music": {
+      "accuracy": 0.4029126213592233,
+      "correct": 83,
+      "total": 206
+    },
+    "sound": {
+      "accuracy": 0.5393939393939394,
+      "correct": 89,
+      "total": 165
+    },
+    "speech": {
+      "accuracy": 0.4217687074829932,
+      "correct": 124,
+      "total": 294
+    }
+  },
+  "official_comparison": {
+    "official_accuracy": 0.4105603448275862,
+    "llm_accuracy": 0.463,
+    "delta_mcq": 0.052439655172413835,
+    "agreement_rate": 0.8900862068965517,
+    "both_correct": 371,
+    "llm_only_correct": 92,
+    "official_only_correct": 10,
+    "both_wrong": 455
+  }
+}

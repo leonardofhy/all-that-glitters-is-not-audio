@@ -1,0 +1,146 @@
+{
+  "evaluation_summary": {
+    "total_samples": 5305,
+    "evaluated_samples": 5304,
+    "parquet_file": "results/mmau_pro/tb_ministral_3b/none.jsonl",
+    "model_output_column": "model_output",
+    "overall_weighted_performance": 0.24854072398190044
+  },
+  "category_results": {
+    "open": {
+      "type": "openended",
+      "count": 625,
+      "performance_score": 0.286816,
+      "metrics": {
+        "avg_correctness": 1.4432,
+        "std_correctness": 0.5989772616719269,
+        "avg_relevance": 1.3552,
+        "std_relevance": 0.6159812984174113,
+        "avg_completeness": 1.304,
+        "std_completeness": 0.5603427522507988,
+        "avg_clarity": 1.5488,
+        "std_clarity": 0.7163927414484321,
+        "avg_overall": 1.43408,
+        "std_overall": 0.5860019057989487,
+        "good_response_rate": 0.0,
+        "poor_response_rate": 0.8736
+      }
+    },
+    "instruction following": {
+      "type": "aif",
+      "count": 87,
+      "performance_score": 0.13793103448275862,
+      "success_rate": 0.13793103448275862
+    },
+    "sound": {
+      "type": "closed",
+      "count": 1047,
+      "performance_score": 0.2043935052531041,
+      "metrics": {
+        "accuracy": 0.2043935052531041,
+        "precision": 0.38391492092744306,
+        "recall": 0.2043935052531041,
+        "f1_score": 0.23240825851131738
+      }
+    },
+    "multi": {
+      "type": "closed",
+      "count": 430,
+      "performance_score": 0.1372093023255814,
+      "metrics": {
+        "accuracy": 0.1372093023255814,
+        "precision": 0.1564700996677741,
+        "recall": 0.1372093023255814,
+        "f1_score": 0.136491164716645
+      }
+    },
+    "sound_music": {
+      "type": "closed",
+      "count": 50,
+      "performance_score": 0.2,
+      "metrics": {
+        "accuracy": 0.2,
+        "precision": 0.24,
+        "recall": 0.2,
+        "f1_score": 0.21333333333333332
+      }
+    },
+    "music": {
+      "type": "closed",
+      "count": 1418,
+      "performance_score": 0.25952045133991536,
+      "metrics": {
+        "accuracy": 0.25952045133991536,
+        "precision": 0.2916595955743254,
+        "recall": 0.25952045133991536,
+        "f1_score": 0.25931998466684664
+      }
+    },
+    "spatial_audio": {
+      "type": "closed",
+      "count": 325,
+      "performance_score": 0.39692307692307693,
+      "metrics": {
+        "accuracy": 0.39692307692307693,
+        "precision": 0.6737242757242757,
+        "recall": 0.39692307692307693,
+        "f1_score": 0.46063747172465774
+      }
+    },
+    "music_speech": {
+      "type": "closed",
+      "count": 46,
+      "performance_score": 0.2391304347826087,
+      "metrics": {
+        "accuracy": 0.2391304347826087,
+        "precision": 0.3347826086956522,
+        "recall": 0.2391304347826087,
+        "f1_score": 0.25396825396825395
+      }
+    },
+    "sound_music_speech": {
+      "type": "closed",
+      "count": 7,
+      "performance_score": 0.0,
+      "metrics": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      }
+    },
+    "sound_speech": {
+      "type": "closed",
+      "count": 88,
+      "performance_score": 0.19318181818181818,
+      "metrics": {
+        "accuracy": 0.19318181818181818,
+        "precision": 0.19696969696969696,
+        "recall": 0.19318181818181818,
+        "f1_score": 0.19128787878787878
+      }
+    },
+    "speech": {
+      "type": "closed",
+      "count": 891,
+      "performance_score": 0.29068462401795736,
+      "metrics": {
+        "accuracy": 0.29068462401795736,
+        "precision": 0.31959305264910337,
+        "recall": 0.29068462401795736,
+        "f1_score": 0.2916444856470122
+      }
+    },
+    "voice_chat": {
+      "type": "closed",
+      "count": 290,
+      "performance_score": 0.20689655172413793,
+      "metrics": {
+        "accuracy": 0.20689655172413793,
+        "precision": 0.22586206896551725,
+        "recall": 0.20689655172413793,
+        "f1_score": 0.2121510673234811
+      }
+    }
+  }
+}

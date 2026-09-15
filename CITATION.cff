@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the paper."
+title: "All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation"
+type: software
+license: MIT
+authors:
+  - family-names: Foo
+    given-names: Leonardo Haw-Yang
+  - family-names: Yang
+    given-names: Chih-Kai
+  - family-names: Li
+    given-names: Chen-An
+  - family-names: Lu
+    given-names: Ke-Han
+  - family-names: Lee
+    given-names: Hung-yi
+preferred-citation:
+  type: article
+  title: "All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation"
+  authors:
+    - family-names: Foo
+      given-names: Leonardo Haw-Yang
+    - family-names: Yang
+      given-names: Chih-Kai
+    - family-names: Li
+      given-names: Chen-An
+    - family-names: Lu
+      given-names: Ke-Han
+    - family-names: Lee
+      given-names: Hung-yi
+  journal: "arXiv preprint arXiv:2604.24401"
+  year: 2026
+  url: "https://arxiv.org/abs/2604.24401"

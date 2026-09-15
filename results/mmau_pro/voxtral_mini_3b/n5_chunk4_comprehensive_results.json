@@ -1,0 +1,146 @@
+{
+  "evaluation_summary": {
+    "total_samples": 5305,
+    "evaluated_samples": 5304.0,
+    "parquet_file": "results/mmau_pro/voxtral_mini_3b/n5_chunk4.jsonl",
+    "model_output_column": "model_output",
+    "overall_weighted_performance": 0.3904483408748115
+  },
+  "category_results": {
+    "open": {
+      "type": "openended",
+      "count": 625,
+      "performance_score": 0.6415008,
+      "metrics": {
+        "avg_correctness": 2.5392,
+        "std_correctness": 1.0652996573734548,
+        "avg_relevance": 3.3888,
+        "std_relevance": 1.1401905805609867,
+        "avg_completeness": 2.9168,
+        "std_completeness": 1.028920677214721,
+        "avg_clarity": 4.0128,
+        "std_clarity": 0.8332083532946606,
+        "avg_overall": 3.207504,
+        "std_overall": 0.9271103548035692,
+        "good_response_rate": 0.2464,
+        "poor_response_rate": 0.128
+      }
+    },
+    "instruction following": {
+      "type": "aif",
+      "count": 87,
+      "performance_score": 0.1839080459770115,
+      "success_rate": 0.1839080459770115
+    },
+    "sound": {
+      "type": "closed",
+      "count": 1047,
+      "performance_score": 0.37917860553963706,
+      "metrics": {
+        "accuracy": 0.37917860553963706,
+        "precision": 0.4836306820383588,
+        "recall": 0.37917860553963706,
+        "f1_score": 0.37862512172935725
+      }
+    },
+    "multi": {
+      "type": "closed",
+      "count": 430,
+      "performance_score": 0.3,
+      "metrics": {
+        "accuracy": 0.3,
+        "precision": 0.3094999600773458,
+        "recall": 0.3,
+        "f1_score": 0.29017100090000475
+      }
+    },
+    "sound_music": {
+      "type": "closed",
+      "count": 50,
+      "performance_score": 0.34,
+      "metrics": {
+        "accuracy": 0.34,
+        "precision": 0.45,
+        "recall": 0.34,
+        "f1_score": 0.358
+      }
+    },
+    "music": {
+      "type": "closed",
+      "count": 1418,
+      "performance_score": 0.421015514809591,
+      "metrics": {
+        "accuracy": 0.421015514809591,
+        "precision": 0.45929025479813373,
+        "recall": 0.421015514809591,
+        "f1_score": 0.4250694364936686
+      }
+    },
+    "spatial_audio": {
+      "type": "closed",
+      "count": 325,
+      "performance_score": 0.12,
+      "metrics": {
+        "accuracy": 0.12,
+        "precision": 0.10563200901662441,
+        "recall": 0.12,
+        "f1_score": 0.10412015080436132
+      }
+    },
+    "music_speech": {
+      "type": "closed",
+      "count": 46,
+      "performance_score": 0.34782608695652173,
+      "metrics": {
+        "accuracy": 0.34782608695652173,
+        "precision": 0.4710144927536231,
+        "recall": 0.34782608695652173,
+        "f1_score": 0.3597826086956522
+      }
+    },
+    "sound_music_speech": {
+      "type": "closed",
+      "count": 7,
+      "performance_score": 0.5714285714285714,
+      "metrics": {
+        "accuracy": 0.5714285714285714,
+        "precision": 0.5714285714285714,
+        "recall": 0.5714285714285714,
+        "f1_score": 0.5714285714285714
+      }
+    },
+    "sound_speech": {
+      "type": "closed",
+      "count": 88,
+      "performance_score": 0.2840909090909091,
+      "metrics": {
+        "accuracy": 0.2840909090909091,
+        "precision": 0.25946969696969696,
+        "recall": 0.2840909090909091,
+        "f1_score": 0.26325757575757575
+      }
+    },
+    "speech": {
+      "type": "closed",
+      "count": 891,
+      "performance_score": 0.40291806958473625,
+      "metrics": {
+        "accuracy": 0.40291806958473625,
+        "precision": 0.3974868279671671,
+        "recall": 0.40291806958473625,
+        "f1_score": 0.38632472956193514
+      }
+    },
+    "voice_chat": {
+      "type": "closed",
+      "count": 290,
+      "performance_score": 0.24482758620689654,
+      "metrics": {
+        "accuracy": 0.24482758620689654,
+        "precision": 0.2649425287356322,
+        "recall": 0.24482758620689654,
+        "f1_score": 0.24712643678160917
+      }
+    }
+  }
+}

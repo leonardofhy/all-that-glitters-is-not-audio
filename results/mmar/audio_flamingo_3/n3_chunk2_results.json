@@ -1,0 +1,147 @@
+{
+  "overall_accuracy": 0.499,
+  "overall_correct": 499,
+  "overall_total": 1000,
+  "modality_accuracy": {
+    "sound": {
+      "accuracy": 0.503030303030303,
+      "correct": 83,
+      "total": 165
+    },
+    "music": {
+      "accuracy": 0.4854368932038835,
+      "correct": 100,
+      "total": 206
+    },
+    "speech": {
+      "accuracy": 0.4931972789115646,
+      "correct": 145,
+      "total": 294
+    },
+    "mix-sound-music": {
+      "accuracy": 0.2727272727272727,
+      "correct": 3,
+      "total": 11
+    },
+    "mix-sound-speech": {
+      "accuracy": 0.5045871559633027,
+      "correct": 110,
+      "total": 218
+    },
+    "mix-music-speech": {
+      "accuracy": 0.573170731707317,
+      "correct": 47,
+      "total": 82
+    },
+    "mix-sound-music-speech": {
+      "accuracy": 0.4583333333333333,
+      "correct": 11,
+      "total": 24
+    }
+  },
+  "category_accuracy": {
+    "Signal Layer": {
+      "accuracy": 0.5116279069767442,
+      "correct": 22,
+      "total": 43
+    },
+    "Perception Layer": {
+      "accuracy": 0.4801980198019802,
+      "correct": 194,
+      "total": 404
+    },
+    "Semantic Layer": {
+      "accuracy": 0.4854368932038835,
+      "correct": 200,
+      "total": 412
+    },
+    "Cultural Layer": {
+      "accuracy": 0.5886524822695035,
+      "correct": 83,
+      "total": 141
+    }
+  },
+  "sub_category_accuracy": {
+    "Speaker Analysis": {
+      "accuracy": 0.4166666666666667,
+      "correct": 20,
+      "total": 48
+    },
+    "Environmental Perception and Reasoning": {
+      "accuracy": 0.5503355704697986,
+      "correct": 82,
+      "total": 149
+    },
+    "Content Analysis": {
+      "accuracy": 0.4868421052631579,
+      "correct": 148,
+      "total": 304
+    },
+    "Correlation Analysis": {
+      "accuracy": 0.56,
+      "correct": 28,
+      "total": 50
+    },
+    "Counting and Statistics": {
+      "accuracy": 0.43434343434343436,
+      "correct": 43,
+      "total": 99
+    },
+    "Professional Knowledge and Reasoning": {
+      "accuracy": 0.5633802816901409,
+      "correct": 40,
+      "total": 71
+    },
+    "Culture of Speaker": {
+      "accuracy": 0.5576923076923077,
+      "correct": 29,
+      "total": 52
+    },
+    "Aesthetic Evaluation": {
+      "accuracy": 0.875,
+      "correct": 7,
+      "total": 8
+    },
+    "Emotion and Intention": {
+      "accuracy": 0.5333333333333333,
+      "correct": 32,
+      "total": 60
+    },
+    "Anomaly Detection": {
+      "accuracy": 0.4117647058823529,
+      "correct": 7,
+      "total": 17
+    },
+    "Spatial Analysis": {
+      "accuracy": 0.5333333333333333,
+      "correct": 8,
+      "total": 15
+    },
+    "Temporal Analysis": {
+      "accuracy": 0.32142857142857145,
+      "correct": 9,
+      "total": 28
+    },
+    "Acoustic Quality Analysis": {
+      "accuracy": 0.6111111111111112,
+      "correct": 11,
+      "total": 18
+    },
+    "Music Theory": {
+      "accuracy": 0.38095238095238093,
+      "correct": 24,
+      "total": 63
+    },
+    "Audio Difference Analysis": {
+      "accuracy": 0.5,
+      "correct": 4,
+      "total": 8
+    },
+    "Imagination": {
+      "accuracy": 0.7,
+      "correct": 7,
+      "total": 10
+    }
+  },
+  "no_prediction_count": 0
+}

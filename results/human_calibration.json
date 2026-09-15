@@ -1,0 +1,83 @@
+{
+  "description": "Human calibration of MCQ scorers (Anchor #2). N=185 stratified samples from MMAU + MMAR scorer disagreements, single annotator.",
+  "sample_size": {
+    "total": 185,
+    "MMAU": 90,
+    "MMAR": 95
+  },
+  "sample_pools": {
+    "A_llm_only_correct": 100,
+    "B_official_only_correct": 44,
+    "C1_both_correct": 27,
+    "C2_both_wrong": 14
+  },
+  "human_vs_scorer": {
+    "n_non_ambiguous": 177,
+    "n_ambiguous": 8,
+    "llm_judge": {
+      "agreement": 172,
+      "rate": 0.972,
+      "errors": 5,
+      "false_positive": 2,
+      "false_negative": 3
+    },
+    "official_string_match": {
+      "agreement": 46,
+      "rate": 0.260,
+      "errors": 131,
+      "false_positive": 38,
+      "false_negative": 93
+    }
+  },
+  "human_vs_scorer_by_benchmark": {
+    "MMAU": {
+      "n": 88,
+      "llm_agreement": 85,
+      "llm_rate": 0.966,
+      "official_agreement": 29,
+      "official_rate": 0.330
+    },
+    "MMAR": {
+      "n": 89,
+      "llm_agreement": 87,
+      "llm_rate": 0.978,
+      "official_agreement": 17,
+      "official_rate": 0.191
+    }
+  },
+  "pool_validation": {
+    "A_llm_only_correct": {
+      "n": 100,
+      "human_correct": 93,
+      "human_incorrect": 2,
+      "human_ambiguous": 5,
+      "precision": 0.979
+    },
+    "B_official_only_correct": {
+      "n": 44,
+      "human_correct": 3,
+      "human_incorrect": 38,
+      "human_ambiguous": 3,
+      "precision": 0.073
+    },
+    "C1_both_correct": {
+      "n": 27,
+      "human_correct": 27,
+      "human_incorrect": 0,
+      "human_ambiguous": 0,
+      "precision": 1.0
+    },
+    "C2_both_wrong": {
+      "n": 14,
+      "human_correct": 0,
+      "human_incorrect": 14,
+      "human_ambiguous": 0,
+      "precision": 1.0
+    }
+  },
+  "label_distribution": {
+    "correct": 123,
+    "incorrect": 54,
+    "ambiguous": 8
+  }
+}

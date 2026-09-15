@@ -1,0 +1,177 @@
+{
+  "overall_accuracy": 0.618,
+  "overall_correct": 618,
+  "overall_total": 1000,
+  "task_accuracy": {
+    "sound": {
+      "accuracy": 0.7207207207207207,
+      "correct": 240,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.46546546546546547,
+      "correct": 155,
+      "total": 333
+    },
+    "music": {
+      "accuracy": 0.6676646706586826,
+      "correct": 223,
+      "total": 334
+    }
+  },
+  "difficulty_accuracy": {
+    "medium": {
+      "accuracy": 0.6851851851851852,
+      "correct": 370,
+      "total": 540
+    },
+    "hard": {
+      "accuracy": 0.5677966101694916,
+      "correct": 134,
+      "total": 236
+    },
+    "easy": {
+      "accuracy": 0.5089285714285714,
+      "correct": 114,
+      "total": 224
+    }
+  },
+  "sub_category_accuracy": {
+    "Acoustic Source Inference": {
+      "accuracy": 0.8541666666666666,
+      "correct": 41,
+      "total": 48
+    },
+    "Temporal Event Reasoning": {
+      "accuracy": 0.5,
+      "correct": 24,
+      "total": 48
+    },
+    "Dissonant Emotion Interpretation": {
+      "accuracy": 0.7142857142857143,
+      "correct": 25,
+      "total": 35
+    },
+    "Event-Based Knowledge Retrieval": {
+      "accuracy": 0.48484848484848486,
+      "correct": 16,
+      "total": 33
+    },
+    "Counting": {
+      "accuracy": 0.4482758620689655,
+      "correct": 13,
+      "total": 29
+    },
+    "Phonemic Stress Pattern Analysis": {
+      "accuracy": 0.24528301886792453,
+      "correct": 13,
+      "total": 53
+    },
+    "Emotion State summarisation": {
+      "accuracy": 0.4772727272727273,
+      "correct": 21,
+      "total": 44
+    },
+    "Conversational Fact Retrieval": {
+      "accuracy": 0.6363636363636364,
+      "correct": 14,
+      "total": 22
+    },
+    "Key highlight Extraction": {
+      "accuracy": 0.6666666666666666,
+      "correct": 14,
+      "total": 21
+    },
+    "Multi Speaker Role Mapping": {
+      "accuracy": 0.5555555555555556,
+      "correct": 15,
+      "total": 27
+    },
+    "Phonological Sequence Decoding": {
+      "accuracy": 0.40816326530612246,
+      "correct": 20,
+      "total": 49
+    },
+    "Emotion Flip Detection": {
+      "accuracy": 0.2,
+      "correct": 4,
+      "total": 20
+    },
+    "Instrumentation": {
+      "accuracy": 0.8285714285714286,
+      "correct": 29,
+      "total": 35
+    },
+    "Temporal Reasoning": {
+      "accuracy": 0.5,
+      "correct": 28,
+      "total": 56
+    },
+    "Lyrical Reasoning": {
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10
+    },
+    "Socio-cultural Interpretation": {
+      "accuracy": 0.55,
+      "correct": 11,
+      "total": 20
+    },
+    "Rhythm and Tempo Understanding": {
+      "accuracy": 0.5,
+      "correct": 23,
+      "total": 46
+    },
+    "Musical Texture Interpretation": {
+      "accuracy": 0.8235294117647058,
+      "correct": 28,
+      "total": 34
+    },
+    "Melodic Structure Interpretation": {
+      "accuracy": 0.7272727272727273,
+      "correct": 24,
+      "total": 33
+    },
+    "Harmony and Chord Progressions": {
+      "accuracy": 0.5151515151515151,
+      "correct": 17,
+      "total": 33
+    },
+    "Musical Genre Reasoning": {
+      "accuracy": 0.8529411764705882,
+      "correct": 29,
+      "total": 34
+    },
+    "Event-Based Sound Reasoning": {
+      "accuracy": 0.8541666666666666,
+      "correct": 41,
+      "total": 48
+    },
+    "Emotional Tone Interpretation": {
+      "accuracy": 0.8787878787878788,
+      "correct": 29,
+      "total": 33
+    },
+    "Eco-Acoustic Knowledge": {
+      "accuracy": 0.7872340425531915,
+      "correct": 37,
+      "total": 47
+    },
+    "Ambient Sound Interpretation": {
+      "accuracy": 0.7083333333333334,
+      "correct": 34,
+      "total": 48
+    },
+    "Acoustic Scene Reasoning": {
+      "accuracy": 0.5833333333333334,
+      "correct": 28,
+      "total": 48
+    },
+    "Sound-Based Event Recognition": {
+      "accuracy": 0.7608695652173914,
+      "correct": 35,
+      "total": 46
+    }
+  },
+  "no_prediction_count": 0
+}

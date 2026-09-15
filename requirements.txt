@@ -1,0 +1,9 @@
+# Tables and figures
+numpy
+matplotlib
+# Rehydrating the released predictions
+huggingface_hub
+pyarrow
+# MCQ LLM judge
+anthropic
+# Inference and MMAU-Pro official evaluation need per-model environments: see docs/environments.md

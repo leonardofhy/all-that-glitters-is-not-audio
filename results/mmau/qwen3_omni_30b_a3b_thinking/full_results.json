@@ -1,0 +1,167 @@
+{
+  "overall_accuracy": 0.7559999999999999,
+  "overall_correct": 756,
+  "overall_total": 1000,
+  "task_accuracy": {
+    "sound": {
+      "accuracy": 0.8378378378378378,
+      "correct": 279,
+      "total": 333
+    },
+    "speech": {
+      "accuracy": 0.7237237237237237,
+      "correct": 241,
+      "total": 333
+    },
+    "music": {
+      "accuracy": 0.7065868263473054,
+      "correct": 236,
+      "total": 334
+    }
+  },
+  "difficulty_accuracy": {
+    "unknown": {
+      "accuracy": 0.756,
+      "correct": 756,
+      "total": 1000
+    }
+  },
+  "sub_category_accuracy": {
+    "Acoustic Source Inference": {
+      "accuracy": 0.8958333333333334,
+      "correct": 43,
+      "total": 48
+    },
+    "Temporal Event Reasoning": {
+      "accuracy": 0.7916666666666666,
+      "correct": 38,
+      "total": 48
+    },
+    "Dissonant Emotion Interpretation": {
+      "accuracy": 0.9428571428571428,
+      "correct": 33,
+      "total": 35
+    },
+    "Event-Based Knowledge Retrieval": {
+      "accuracy": 0.8484848484848485,
+      "correct": 28,
+      "total": 33
+    },
+    "Counting": {
+      "accuracy": 0.6206896551724138,
+      "correct": 18,
+      "total": 29
+    },
+    "Phonemic Stress Pattern Analysis": {
+      "accuracy": 0.33962264150943394,
+      "correct": 18,
+      "total": 53
+    },
+    "Emotion State summarisation": {
+      "accuracy": 0.5227272727272727,
+      "correct": 23,
+      "total": 44
+    },
+    "Conversational Fact Retrieval": {
+      "accuracy": 0.9545454545454546,
+      "correct": 21,
+      "total": 22
+    },
+    "Key highlight Extraction": {
+      "accuracy": 1.0,
+      "correct": 21,
+      "total": 21
+    },
+    "Multi Speaker Role Mapping": {
+      "accuracy": 1.0,
+      "correct": 27,
+      "total": 27
+    },
+    "Phonological Sequence Decoding": {
+      "accuracy": 0.8571428571428571,
+      "correct": 42,
+      "total": 49
+    },
+    "Emotion Flip Detection": {
+      "accuracy": 0.5,
+      "correct": 10,
+      "total": 20
+    },
+    "Instrumentation": {
+      "accuracy": 0.8571428571428571,
+      "correct": 30,
+      "total": 35
+    },
+    "Temporal Reasoning": {
+      "accuracy": 0.32142857142857145,
+      "correct": 18,
+      "total": 56
+    },
+    "Lyrical Reasoning": {
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10
+    },
+    "Socio-cultural Interpretation": {
+      "accuracy": 0.85,
+      "correct": 17,
+      "total": 20
+    },
+    "Rhythm and Tempo Understanding": {
+      "accuracy": 0.6739130434782609,
+      "correct": 31,
+      "total": 46
+    },
+    "Musical Texture Interpretation": {
+      "accuracy": 0.7352941176470589,
+      "correct": 25,
+      "total": 34
+    },
+    "Melodic Structure Interpretation": {
+      "accuracy": 0.7272727272727273,
+      "correct": 24,
+      "total": 33
+    },
+    "Harmony and Chord Progressions": {
+      "accuracy": 0.696969696969697,
+      "correct": 23,
+      "total": 33
+    },
+    "Musical Genre Reasoning": {
+      "accuracy": 0.8529411764705882,
+      "correct": 29,
+      "total": 34
+    },
+    "Event-Based Sound Reasoning": {
+      "accuracy": 0.875,
+      "correct": 42,
+      "total": 48
+    },
+    "Emotional Tone Interpretation": {
+      "accuracy": 0.8787878787878788,
+      "correct": 29,
+      "total": 33
+    },
+    "Eco-Acoustic Knowledge": {
+      "accuracy": 0.851063829787234,
+      "correct": 40,
+      "total": 47
+    },
+    "Ambient Sound Interpretation": {
+      "accuracy": 0.7291666666666666,
+      "correct": 35,
+      "total": 48
+    },
+    "Acoustic Scene Reasoning": {
+      "accuracy": 0.8333333333333334,
+      "correct": 40,
+      "total": 48
+    },
+    "Sound-Based Event Recognition": {
+      "accuracy": 0.8913043478260869,
+      "correct": 41,
+      "total": 46
+    }
+  },
+  "no_prediction_count": 38
+}
